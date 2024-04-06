@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cone Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="volume.js" defer></script>
+</head>
+<body>
+  <main>
+      <h1>Cone Calculator</h1>
+      <form>
+		<img src="strawberry_ice_cream.jpg" alt="image of ice cream cone">
+				<label for="coneRadius">Cone radius (cm):</label>
+				<input type="number" id="coneRadius" name="coneRadius" min="1" required value="1">
+				<label for="coneHeight">Cone height (cm):</label>
+				<input type="number" id="coneHeight" name="coneHeight" min="1" required value="1">
+				<label for="numScoops">Number of scoops:</label>
+				<input type="number" id="numScoops" name="numScoops" min="1" max="5" required value="1">
+        <button type="button">Calculate</button>
+		<div id="answer">
+		
+		</div>
+      </form>
+      <p><a href="https://commons.wikimedia.org/wiki/File:Strawberry_ice_cream_cone_(5076899310).jpg">Image by Mindmatrix</a>, licensed under CC BY 2.0</p>
+  </main>
+</body>
+</html>
